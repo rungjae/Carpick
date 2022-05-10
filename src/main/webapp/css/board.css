@@ -1,0 +1,219 @@
+/*
+색 코드 (진한 포인트) : #0b1c26
+색 코드 (포인트) : #142f40
+색 코드 (배경) : #275673
+색 코드 (글씨) : #c1d4d9
+*/
+#wrap {
+    margin: 0 auto;
+    width: 1280px;
+    height: 730px;
+}
+
+.header {
+    width: 100%;
+    background-color: #0b1c26;
+    height: 150px;
+}
+
+.usr {
+    color: #bdbebd;
+    float: right;
+    padding-top: 15px;
+    padding-right: 30px;
+    font-size: 14px;
+}
+
+.header1 {
+    margin-left: 50px;
+    padding-top: 50px;
+}
+
+.gnb li {
+    display: inline;
+    font-size: 30px;
+    margin-left: 25px;
+}
+
+.gnb li:first-child {
+    font-size: 35px;
+    font-weight: bold;
+    margin-right: 25px;
+}
+
+.gnb li img {
+    width: 35px;
+}
+
+
+.gnb li:nth-child(2):hover {
+    font-size: 32px;
+    transition: all 0.4s;
+}
+
+.gnb li:nth-child(3):hover {
+    font-size: 32px;
+    transition: all 0.4s;
+}
+
+.gnb li:nth-child(4):hover {
+    font-size: 32px;
+    transition: all 0.4s;
+}
+
+body {
+    background-color: #275673;
+}
+
+/* 공지사항 영역  */
+.notice {
+	margin: 0 auto;
+	text-align:center;
+	color: #fff;
+	padding-top: 40px;
+}
+
+.notice h1{
+	font-size: 40px;
+	font-weight: bold;
+}
+/* 게시판 영역  */
+
+.row {
+    text-decoration: none;
+    margin: 0 auto;
+    color: #000;
+    padding-top: 40px;
+}
+
+.row a:link {
+    color: #000;
+    text-decoration: none;
+}
+
+.row a:visited {
+    color: #000;
+    text-decoration: none;
+}
+
+.row a:hover {
+    color: #333;
+    text-decoration: none;
+    transition: all 0.4s ease 0s;
+}
+
+.bd_table thead tr th {
+    height: 36px;
+    padding-top: 20px;
+    font-weight: bold;
+    font-size:18px;
+}
+
+.bd_table tbody tr td {
+    height: 30px;
+    padding-top: 12px;
+}
+
+
+.bd_table tbody tr:nth-child(odd) {
+	background-color:white;
+}
+
+.bd_table tbody tr:nth-child(even) {
+	background-color:#eeeeee;
+}
+
+/* 게시글 작성 부분 */
+
+.bd_table_w thead tr th{
+    height: 50px;
+    background-color: #d3d3d3;
+}
+.bd_table_w tbody tr:first-child {
+    height: 30px;
+}
+
+.bd_table_w tbody tr td input, .bd_table_w tbody tr td textarea{
+    width: 1000px;
+}
+
+.bd_table_w tbody tr td {
+    background-color: white;
+}
+
+.button {
+    width: 90px;
+    height: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #FFF;
+    background-color: #2aab1d;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    margin-top: 20px;
+    float: right;
+}
+
+.button:hover {
+    transform: translateY(-2px);
+    background-color: #007f00;
+}
+
+.button1 {
+    width: 60px;
+    height: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #FFF;
+    background-color: #2aab1d;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    margin-top: 20px;
+    margin-right: 6px;
+    float: left;
+}
+
+.button1:hover {
+    transform: translateY(-2px);
+    background-color: #007f00;
+}
+
+
+
+/* footer 영역 */
+
+.footer {
+    height: 350px;
+    width: 100%;
+    background-color: #0b1c26;
+}
+
+.footer h1 {
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 70px;
+    margin-left: 20px;
+    color: #c1d4d9;
+}
+
+.footer p {
+    font-size: 14px;
+    padding-top: 50px;
+    margin-left: 20px;
+    color: #c1d4d9;
+    line-height: 25px;
+}

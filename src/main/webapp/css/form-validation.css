@@ -1,0 +1,8 @@
+.container {
+  max-width: 960px;
+}
+@media (min-width: 768px){
+  .col-md-7 {
+    margin-left: 150px !important;
+  }
+}
